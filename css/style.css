@@ -1,0 +1,56 @@
+:root {
+    --marrom: #59412D;
+    --rosa-claro: #F2EED8;
+    --vermelho: #BF3434;
+}
+
+body{
+    background-color: var(--rosa-claro);
+    color: var(--marrom);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-titulo {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.subtitulo {
+    font-size: 1.75rem;
+    line-height: 0.75rem;
+}
+
+.navegacao {
+
+}
+
+.navegacao-lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.links{
+    color: var(--vermelho);
+}
+
+.conteudo {
+
+}
+
+.conteudo-texto {
+    
+}
