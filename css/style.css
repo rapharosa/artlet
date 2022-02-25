@@ -41,10 +41,6 @@ body{
     text-shadow: 1px 1px 2px var(--marrom);
 }
 
-.navegacao {
-
-}
-
 .navegacao-lista {
     display: flex;
     justify-content: space-around;
@@ -78,6 +74,21 @@ body{
     font-size: 1.5rem;
 }
 
-.conteudo-imagem {
-    display: none;
+.classe-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    width: 16rem;
+    margin: 0 1rem;
+}
+
+.contato {
+    background-color: var(--vermelho);
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    
 }
