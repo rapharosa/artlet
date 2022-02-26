@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: var(--rosa-claro);
+    background: linear-gradient(var(--rosa-claro), #ebe1ad);
     color: var(--marrom);
 }
 
@@ -89,7 +89,11 @@ body{
 
 .imagem {
     width: 18rem;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
+}
+
+.contato-768px {
+    display: none;
 }
 
 .contato {
@@ -132,4 +136,72 @@ body{
 .redes-sociais {
     font-size: 3rem;
     color: var(--rosa-claro);
+}
+
+@media screen and (min-width: 768px) {
+
+    .titulo {
+        padding-top: 0;
+        font-size: 4rem;
+    }
+
+    .subtitulo {
+        font-size: 1.75rem;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        align-items: initial;
+        justify-content: space-around;
+        padding: 0 1rem;
+    }
+
+    .conteudo-titulo {
+        font-size: 4rem;
+    }
+    
+    .conteudo-texto {
+        align-items: initial;
+        justify-content: space-between;
+    }
+
+    .contato {
+        display: none;
+    }
+
+    .contato-768px {
+        display: block;
+        background-color: var(--marrom);
+        color: var(--rosa-claro);
+        margin: 2rem 0;
+        width: 80%;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px black;
+        font-size: 2rem;
+        border-radius: 20px;
+        box-shadow: 5px 5px 7px rgba(0,0,0,0.25),
+        inset 2px 2px 5px rgba(255,255,255,0.2),
+        inset -3px -3px 5px rgba(0,0,0,0.5);
+    }
+
+    .imagem {
+        margin: 1rem 0;
+        width: 20rem;
+    }
+
+    .contato {
+        margin-top: 1rem;
+    }
+
+    .redes {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem {
+        width: 28rem;
+    }
 }
